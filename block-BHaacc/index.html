@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-level-1|Adding Media</title>
+    <!-- Font-Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <!-- Font-Awesome -->
@@ -52,16 +55,16 @@
                 </div>
               </div>
             </div>
-            <div class="video">
+            <figure class="video">
               <iframe
-                width="560"
+                width="100%"
                 height="315"
                 src="https://www.youtube.com/embed/AqcjdkPMPJA"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-            </div>
+            </figure>
           </div>
         </div>
       </section>
@@ -135,50 +138,50 @@
                  <span class="dot dot_3"></span>
               </div>
              <div class="flex">
-                <div class="blog-card flex">
+                <article class="blog-card flex">
                     <div class="card-image">
                         <img src="./assets/blog-image1.jpg" alt="">
                     </div>
                     <div class="card-text">
-                       <h5><i class="far fa-clock"></i>December 22,2017</h5>
+                       <time><i class="far fa-clock"></i>December 22,2017</time>
                        <h4>How To Find Out Beautiful Workspace.</h4>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed!</p>
                        <a href="#" class="card-btn">Read article</a>
                     </div>
-                </div>
-                <div class="blog-card flex">
+                </article>
+                <article class="blog-card flex">
                     <div class="card-image">
                         <img src="./assets/blog-image2.jpg" alt="">
                     </div>
                     <div class="card-text">
-                       <h5><i class="far fa-clock"></i>December 18,2017</h5>
+                       <time><i class="far fa-clock"></i>December 18,2017</time>
                        <h4>Woman Sportwear</h4>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed!</p>
                        <a href="#" class="card-btn">Read more</a>
                     </div>
-                </div>
-                <div class="blog-card flex">
+                </article>
+                <article class="blog-card flex">
                     <div class="card-image">
                         <img src="./assets/blog-image3.jpg" alt="">
                     </div>
                     <div class="card-text">
-                       <h5><i class="far fa-clock"></i>December 14,2017</h5>
+                       <time><i class="far fa-clock"></i>December 14,2017</time>
                        <h4>New Creative Fashion</h4>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed!</p>
                        <a href="#" class="card-btn">Read article</a>
                     </div>
-                </div>
-                <div class="blog-card flex">
+                </article>
+                <article class="blog-card flex">
                     <div class="card-image">
                         <img src="./assets/blog-image4.jpg" alt="">
                     </div>
                     <div class="card-text">
-                       <h5><i class="far fa-clock"></i>December 10,2017</h5>
+                       <time><i class="far fa-clock"></i>December 10,2017</time>
                        <h4>Minimalist Design Trend in 2018</h4>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed!</p>
                        <a href="#" class="card-btn">View more</a>
                     </div>
-                </div>
+                </article>
              </div>
           </div>
       </section>
@@ -222,6 +225,7 @@
             </div>
             <div class="flex">
                 <form class="form" action="index.html" method="post">
+                  <fieldset>
                     <div class="flex">
                       <input type="text" name="username" placeholder="Full Name">
                       <input type="email" name="useremail" placeholder="Your Email">
@@ -232,6 +236,7 @@
                     </div>
                     <textarea name="name" rows="8" placeholder="Your requirements"></textarea>
                     <button class="button" type="button" name="button">Send message</button>
+                  </fieldset>
                   </form>
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14285.565095868425!2d91.9255801203547!3d26.47534394051904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375b03be75fde73f%3A0x4314b3ec54654e6d!2sKaikara%2C%20Assam%20784147!5e0!3m2!1sen!2sin!4v1614757779519!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -262,8 +267,10 @@
             </div>
             <div class="footer-nav">
                 <h2>Find Us</h2>
-                <a href="#">123 Grand Rama IX</a>
-                <a href="#">Krung Thap Moha 1200</a>
+                <address>
+                  123 Grand Rama IX
+                Krung Thap Moha 1200
+                </address>
             </div>
            </div>
            <hr>
